@@ -19,7 +19,7 @@ if let image = try? UIImage(imageName: images[indexPath.row]) {
     imageVIew.setImage(image, manager: gifManager, loopCount: -1)
 } else if let url = URL.init(string: images[indexPath.row]) {
     let loader = UIActivityIndicatorView.init(style: .white)
-    imageVIew.gifImageView.setGifFromURL(url, customLoader: loader)
+    imageVIew.setGifFromURL(url, customLoader: loader)
 } else {
     imageVIew.gifImageView.clear()
 }
