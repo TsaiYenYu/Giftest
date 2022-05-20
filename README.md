@@ -22,3 +22,4 @@ if let image = try? UIImage(imageName: images[indexPath.row]) {
 } else {
     imageVIew.gifImageView.clear()
 }
+
