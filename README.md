@@ -2,6 +2,7 @@
 
 extraction from  https://github.com/kirualex/SwiftyGif
 
+```
 let gifManager = SwiftyGifManager(memoryLimit:100)
 let images = [
     "https://media.giphy.com/media/5tkEiBCurffluctzB7/giphy.gif",
@@ -22,4 +23,4 @@ if let image = try? UIImage(imageName: images[indexPath.row]) {
 } else {
     imageVIew.gifImageView.clear()
 }
-
+```
